@@ -1,4 +1,27 @@
+.container{
+    font-family: 'Roboto';
+}
 
-.carousel-control span.glyphicon { 
-    color: green; 
-} 
+h1 {
+    text-align:center;
+    text-decoration: none; 
+ 
+}
+h2 {
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+.bouton{
+    background-color: green;
+    ;
+}
+
+#textarea{
+    height: 80%;
+    
+}
