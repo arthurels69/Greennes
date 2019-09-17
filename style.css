@@ -1,3 +1,27 @@
+
+.bg-white {
+	background-color: #f0f5f3;
+}
+
+.greenness {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 50px;
+}
+
+.bg-green {
+	background-color: #86f0c0;
+
+}
+/* Modifier la couleur du burger au survol */
+.btn-success:hover {
+	background-color:#99CC5B;
+}
+
+nav li
+{
+	font-size: 19px;
+}
+  
 body {
     font-family: 'Roboto', sans-serif;
 }
