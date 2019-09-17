@@ -17,7 +17,7 @@ input, textarea {
     margin-bottom: 8px;
 }
 
-form button {
+input[type=submit] {
     background-color: #316F3E !important;
     color: white !important;
 }
