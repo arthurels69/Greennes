@@ -68,9 +68,8 @@
                 </div>  
             </form>
         </section>
-        <?php include 'footer.php' ?>
     </div>
-
+    <?php include 'footer.php' ?>
     
             <script>
                 mapboxgl.accessToken = 'pk.eyJ1IjoibWFydGlucml2aWVyZSIsImEiOiJjazBubXBvczQwMWRpM2hwcGV4c3pubHJ1In0.qtYexkvHKigcd_hgl4Q9jA';
