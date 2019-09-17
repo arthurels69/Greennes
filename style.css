@@ -1,4 +1,44 @@
 
+/* style footer */
+
+
+.message-bas{
+    text-align: center;
+    margin-top: 40px;
+   
+}
+.message-bas a{
+    color: black;
+}
+.message-bas a:hover{
+    color: grey;
+}
+
+
+  .fa {
+    padding-top: 20px;
+    width: 50px;
+    font-size: 70px;
+    color: black;
+    
+  }
+
+  .fa:hover{
+      color:grey;
+  }
+
+
+  .list-unstyled a {
+      color:black;
+  }
+
+  .list-unstyled a:hover{
+      color: grey;
+      text-decoration: none;
+  }
+ /*footer*/
+
+
 .bg-white {
 	background-color: #f0f5f3;
 }
@@ -73,3 +113,4 @@ input[type=submit] {
     background-color: #316F3E !important;
     color: white !important;
 }
+
