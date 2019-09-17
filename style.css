@@ -1,31 +1,23 @@
-.container{
-    font-family: 'Roboto';
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+h2 {
     text-align:center;
     text-decoration: none; 
- 
-}
-h2 {
-    color: white;
-    background-color: green;
-    text-align: center;
-    font-size: 30px;
-    
-
-}
-
-.bouton{
-    background-color: green;
-    ;
-}
-
-#textarea{
-    height: 80%;
-    
+    margin-bottom: 16px;
 }
 
 #map {
     height: 400px;
+    width: 100%;
+}
+
+input, textarea {
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: green !important;
+    color: #ddd !important;
 }
