@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align:center;
+    text-decoration: none; 
+    margin-bottom: 16px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+input, textarea {
+    margin-bottom: 8px;
+}
+
+input[type=submit] {
+    background-color: #316F3E !important;
+    color: white !important;
+}
