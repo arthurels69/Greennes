@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .card_product{
 	margin-bottom: 32px;
 }
@@ -24,32 +28,24 @@
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
-  }
-
-.container{
-    font-family: 'Roboto';
 }
 
-h1 {
+h2 {
     text-align:center;
     text-decoration: none; 
- 
-}
-h2 {
-    color: white;
-    background-color: green;
-    text-align: center;
-    font-size: 30px;
-    
-
+    margin-bottom: 16px;
 }
 
-.bouton{
-    background-color: green;
-    ;
+#map {
+    height: 400px;
+    width: 100%;
 }
 
-#textarea{
-    height: 80%;
-    
+input, textarea {
+    margin-bottom: 8px;
+}
+
+input[type=submit] {
+    background-color: #316F3E !important;
+    color: white !important;
 }
