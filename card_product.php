@@ -19,7 +19,7 @@
 	    		<!-- Ceci est une carte -->
 	    		<div class="card_product col-12 col-lg-6">
 	    			<a href="#">
-				    <div class="card">
+				    <div class="card" style="height: 100%;">
 				    	<div class="row no-gutters">
 				    		<div class="col-12 col-sm-4">
 					  			<img src="./images/Canette bleue.jpg" class="img-fluid" alt="canette bleue">
@@ -53,8 +53,8 @@
 				<!-- Ceci est une carte -->
 	    		<div class="card_product col-12 col-lg-6">
 	    			<a href="#">
-				    <div class="card">
-				    	<div class="row no-gutters">
+				    <div class="card" style="height: 100%;">
+				    	<div class="row no-gutters" style="height: 100%;">
 				    		<div class="col-12 col-sm-4">
 					  			<img src="./images/Canette rouge.jpg" class="img-fluid" alt="canette rouge">
 					  		</div>
@@ -87,7 +87,7 @@
 				<!-- Ceci est une carte -->
 	    		<div class="card_product col-12 col-lg-6">
 	    			<a href="#">
-				    <div class="card">
+				    <div class="card" style="height: 100%;">
 				    	<div class="row no-gutters">
 				    		<div class="col-12 col-sm-4">
 					  			<img src="./images/Canette verte.jpg" class="img-fluid" alt="canette verte">
@@ -121,7 +121,7 @@
 				<!-- Ceci est une carte -->
 	    		<div class="card_product col-12 col-lg-6">
 	    			<a href="#">
-				    <div class="card">
+				    <div class="card" style="height: 100%;">
 				    	<div class="row no-gutters">
 				    		<div class="col-12 col-sm-4">
 					  			<img src="./images/Canette jaune.jpg" class="img-fluid" alt="canette jaune">
