@@ -26,6 +26,7 @@
     <![endif]-->
   </head>
   <body>
+    <?php include 'navbar.php' ?>
         <div class="container">
             <section>
                 <h2>Où nous trouver ?</h2>
