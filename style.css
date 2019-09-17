@@ -17,7 +17,7 @@ input, textarea {
     margin-bottom: 8px;
 }
 
-button {
-    background-color: green !important;
-    color: #ddd !important;
+form button {
+    background-color: #316F3E !important;
+    color: white !important;
 }
