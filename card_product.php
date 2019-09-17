@@ -24,7 +24,7 @@
 				    		<div class="col-12 col-sm-4">
 					  			<img src="./images/Canette bleue.jpg" class="img-fluid" alt="canette bleue">
 					  		</div>
-					  		<div class="col-12 col-sm-8">
+					  		<div class="col-12 col-sm-8" style="background-color: #F7F7F7;border-radius: 20px;">
 						  		<div class="card-body">
 						   			<h5 class="card-title">Bière bleue</h5>
 						    		<p class="card-text">Cette bière blanche trouble combine les saveurs fruitées des levures belges avec le côté épicé de la graine de coriandre et des écorces d’oranges. Très agréable à boire car elle est très pétillante. Servir frappée.</p>
@@ -58,8 +58,8 @@
 				    		<div class="col-12 col-sm-4">
 					  			<img src="./images/Canette rouge.jpg" class="img-fluid" alt="canette rouge">
 					  		</div>
-					  		<div class="col-12 col-sm-8">
-						  		<div class="card-body">
+					  		<div class="col-12 col-sm-8" style="background-color: #F7F7F7;border-radius: 20px;">
+						  		<div class="card-body" >
 						   			<h5 class="card-title">Bière rouge</h5>
 						    		<p class="card-text">Une bière d’hiver rousse tirant sur le brun. Très parfumée, avec une agréable saveur de clou de girofle et de cannelle. Le goût reste cependant plutôt frais et léger.</p>
 						    		<table class="table table-borderless">
@@ -92,7 +92,7 @@
 				    		<div class="col-12 col-sm-4">
 					  			<img src="./images/Canette verte.jpg" class="img-fluid" alt="canette verte">
 					  		</div>
-					  		<div class="col-12 col-sm-8">
+					  		<div class="col-12 col-sm-8" style="background-color: #F7F7F7;border-radius: 20px;">
 						  		<div class="card-body">
 						   			<h5 class="card-title">Bière verte</h5>
 						    		<p class="card-text">Bière verte aux saveurs herbales et légèrement amères. Au nez, elle est mentholée. La finale en bouche est courte et assez herbale.Le gluten est éliminé au cours du processus de brassage – chaque lot est contrôlé à un niveau inférieur à 20 ppm.</p>
@@ -122,11 +122,11 @@
 	    		<div class="card_product col-12 col-lg-6">
 	    			<a href="#">
 				    <div class="card" style="height: 100%;">
-				    	<div class="row no-gutters">
+				    	<div class="row no-gutters" style="height: 100%;">
 				    		<div class="col-12 col-sm-4">
 					  			<img src="./images/Canette jaune.jpg" class="img-fluid" alt="canette jaune">
 					  		</div>
-					  		<div class="col-12 col-sm-8">
+					  		<div class="col-12 col-sm-8" style="background-color: #F7F7F7;border-radius: 20px;">
 						  		<div class="card-body">
 						   			<h5 class="card-title">Bière jaune</h5>
 						    		<p class="card-text">Bière trappiste parfaitement équilibrée à la robe brun-rouge. Léger goût sucré et arômes de chocolat, de fruits secs, de pain grillé et de caramel.</p>
