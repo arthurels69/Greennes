@@ -15,8 +15,11 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,900,900i&display=swap" rel="stylesheet"
+    <!-- Fonts & icons -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"><link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,45 +29,49 @@
     <![endif]-->
   </head>
   <body>
-        <div class="container">
-            <section>
-                <h2>Où nous trouver ?</h2>
-                <div id='map'></div>
-            </section>
-            <section id="form" class="mt-4">
-                <h2 id="Contact">Contact</h1>
-                <form class="col-lg-12">
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <label for="name">Nom : </label>
-                            <input type="text" name="name" id="name" class="form-control" required>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <label for="first-name">Prénom : </label>
-                            <input type="text" name="first-name" id="first-name" class="form-control" required>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <label for="email">Email : </label>
-                            <input type="email" name="email" id="email" class="form-control">
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <label for="phone">Téléphone : </label>
-                            <input type="phone" name="phone" id="phone" class="form-control">
-                        </div>
-                        <div class="col-12">
-                            <label for="message">Message : </label>
-                            <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
-                        </div>
-                    </div>
-                    <div class="row d-flex justify-content-end">
-                        <div class="col-12">
-                            <input type="submit" class="form-control" value="Envoyer">
-                        </div>
-                    </div>  
-                </form>
-            </section>
-        </div>
+    <?php include 'navbar.php' ?>
 
+    <div class="container">
+        <section>
+            <h2>Où nous trouver ?</h2>
+            <div id='map'></div>
+        </section>
+        <section id="form" class="mt-4">
+            <h2 id="Contact">Contact</h1>
+            <form class="col-lg-12">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <label for="name">Nom : </label>
+                        <input type="text" name="name" id="name" class="form-control" required>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="first-name">Prénom : </label>
+                        <input type="text" name="first-name" id="first-name" class="form-control" required>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="email">Email : </label>
+                        <input type="email" name="email" id="email" class="form-control">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="phone">Téléphone : </label>
+                        <input type="phone" name="phone" id="phone" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="message">Message : </label>
+                        <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-end">
+                    <div class="col-12">
+                        <input type="submit" class="form-control" value="Envoyer">
+                    </div>
+                </div>  
+            </form>
+        </section>
+        <?php include 'footer.php' ?>
+    </div>
+
+    
             <script>
                 mapboxgl.accessToken = 'pk.eyJ1IjoibWFydGlucml2aWVyZSIsImEiOiJjazBubXBvczQwMWRpM2hwcGV4c3pubHJ1In0.qtYexkvHKigcd_hgl4Q9jA';
                 var map = new mapboxgl.Map({
