@@ -1,7 +1,7 @@
 
       <!-- Navbar -->
 <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
-  <img class="navbar-brand glogo" src="images/glogo.png" alt="logo greenness"></img>
+  <img class="glogo" src="images/glogo.png" alt="logo greenness"></img>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
