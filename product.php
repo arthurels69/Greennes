@@ -29,9 +29,10 @@
     <![endif]-->
   </head>
   <body>
-    <?php include 'navbar.php' ?>
+    <?php include 'navbar.php'; ?>
 
     <div class="container">
+
       	<?php include 'carousel.php' ?>
     
     	<div class="container" style="margin-top: 80px;">
@@ -262,10 +263,13 @@
 		</div>
 	</div>
 </div>
+</div>
 
-  	</div>
 
-  <?php include 'footer.php' ?>
+<?php include 'livraison.php' ?>
+
+  <?php include 'footer.php';
+  include 'age_check.php'; ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
