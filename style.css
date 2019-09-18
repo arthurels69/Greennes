@@ -5,38 +5,51 @@
 .message-bas{
     text-align: center;
     margin-top: 40px;
-   
 }
 .message-bas a{
-    color: black;
+    color:  #b4b9bf;
+    text-decoration: none;
 }
 .message-bas a:hover{
     color: grey;
 }
 
 
-  .fa {
+.fa {
     padding-top: 20px;
     width: 50px;
     font-size: 70px;
-    color: black;
-    
-  }
+    color:  #b4b9bf;
 
-  .fa:hover{
-      color:grey;
-  }
+}
+
+.fa:hover{
+    color:grey;
+}
 
 
-  .list-unstyled a {
-      color:black;
-  }
+.list-unstyled a {
+    color: #b4b9bf;
+}
 
-  .list-unstyled a:hover{
-      color: grey;
-      text-decoration: none;
-  }
- /*footer*/
+.list-unstyled a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #0a1a36;
+    color: #b4b9bf;
+}
+
+footer h5{
+    color: #dce1e8;
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
+    padding-top: 40px;
+}
+
+/*footer*/
 
 /* navbar */
 
@@ -56,9 +69,6 @@ nav h1 {
 h1 a:hover {
 	color: inherit;
 	}
-
-	
-}
 
 .bg-green {
 	background-color: #86f0c0;
@@ -126,39 +136,55 @@ input[type=submit] {
     color: white !important;
 }
 
+/* configuration fenetre pop-up*/
+
+.blocachat{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.SelectPanier{
+    margin-bottom: 16px;
+}
 /* Bullet Points */
 
 
 .bullet-image {
     width: 20%;
-  }
+}
   
-  span {
+span {
     border-bottom: 2px solid gray;
     text-align: right;
     font-size: 20px;
     font-weight: bold;
-  }
-  
-  .bullet-image {
-    vertical-align: middle;
-    margin-bottom: 0.75em;
-  }
-  
-  .container1 {
+}
+
+.bullet-image {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+
+.container1 {
+  display: flex;
+}
+
+.box {
+  margin: 40px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 780px){
+
+  .container1{
     display: flex;
+    flex-direction: column;
   }
-  
-  .box {
-    margin: 40px;
-    text-align: justify;
-  }
-  
-  @media screen and (max-width: 780px){
-  
-    .container1{
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
+}
