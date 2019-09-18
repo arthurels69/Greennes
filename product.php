@@ -83,7 +83,7 @@
 					<div class="col d-flex justify-content-center">
 						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosbleue">Buy now!</button>
 					</div>
-					<div class="modal" id="infosbleue">
+					<div class="modal fade" id="infosbleue">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<?php include('tarifbleue.php'); ?>
@@ -139,7 +139,7 @@
 					<div class="col d-flex justify-content-center">
 						<button type="button" class="btn btn-warning btn-lg"data-toggle="modal" data-target="#infosjaune">Buy now!</button>
 					</div>
-					<div class="modal" id="infosjaune">
+					<div class="modal fade" id="infosjaune">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<?php include('tarifjaune.php'); ?>
@@ -195,7 +195,7 @@
 					<div class="col d-flex justify-content-center">
 						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosrouge">Buy now!</button>
 					</div>
-					<div class="modal" id="infosrouge">
+					<div class="modal fade" id="infosrouge">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<?php include('tarifrouge.php'); ?>
@@ -251,7 +251,7 @@
 					<div class="col d-flex justify-content-center">
 						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosverte">Buy now!</button>
 					</div>
-					<div class="modal" id="infosverte">
+					<div class="modal fade" id="infosverte">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<?php include('tarifverte.php'); ?>
