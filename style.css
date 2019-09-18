@@ -193,6 +193,35 @@ span {
   }
 }
 
+
+/* livraison */
+
+.livraison{
+    margin-top:70px;
+    margin-bottom: 70px;
+}
+
+ .livraison .container{
+     text-align: center ;
+    
+color: black;
+padding: auto;
+}
+#logo .fa {
+    color: black;
+}
+#logo p {
+    
+    margin: auto;
+    padding-top: 10px;
+}
+
+#rocket{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+  
+ /* fin livraison */
+
 .m-title {
     font-size: 1.5rem;
 }
