@@ -62,8 +62,8 @@
                 </div>  
             </form>
         </section>
-        <section>
-            <h2>Où nous trouver ?</h2>
+        <section class="mt-4">
+            <h2>Nos points de vente</h2>
             <div id='map'></div>
         </section>
     </div>

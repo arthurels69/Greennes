@@ -93,6 +93,7 @@ nav li
   
 body {
     font-family: 'Roboto', sans-serif;
+    padding-right: 0 !important;
 }
 
 .card_product{
