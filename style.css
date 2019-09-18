@@ -83,6 +83,13 @@ nav li
 {
 	font-size: 19px;
 }
+
+/* banniere */
+
+.background {
+    width: 100%;
+}
+
   
 body {
     font-family: 'Roboto', sans-serif;

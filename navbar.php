@@ -7,7 +7,7 @@
   </div>
 
       <!-- Navbar -->
-  <div class="navbar navbar-expand-sm navbar-light bg-white">
+  <div class="navbar navbar-expand-sm navbar-light bg-white sticky-top">
 
     <div class="container-fluid">
       <div class="row ml-auto mr-auto">
@@ -39,4 +39,5 @@
       </div>
     </div>
   </div>
+    <img class="background" src="images/Greenness_bg.jpg" alt="background"></img>
 </nav>
