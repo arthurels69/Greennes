@@ -5,7 +5,6 @@
 .message-bas{
     text-align: center;
     margin-top: 40px;
-   
 }
 .message-bas a{
     color:  #b4b9bf;
@@ -70,9 +69,6 @@ nav h1 {
 h1 a:hover {
 	color: inherit;
 	}
-
-	
-}
 
 .bg-green {
 	background-color: #86f0c0;
@@ -140,31 +136,48 @@ input[type=submit] {
     color: white !important;
 }
 
+/* configuration fenetre pop-up*/
+
+.blocachat{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.SelectPanier{
+    margin-bottom: 16px;
+}
 /* Bullet Points */
 
 img {
     width: 20%;
-  }
+}
   
-  span {
+span {
     border-bottom: 2px solid gray;
     text-align: right;
     font-size: 20px;
     font-weight: bold;
-  }
-  
-  img {
+}
+
+img {
     vertical-align: middle;
     margin-bottom: 0.75em;
-  }
-  
-  .container2 {
+}
+
+.container2 {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .box {
+}
+
+.box {
     margin-right: 40px;
     text-align: justify;
-  }
+}
   
