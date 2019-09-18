@@ -151,19 +151,23 @@ input, textarea {
     margin-bottom: 8px;
 }
 
-input[type=submit] {
+.btn, input[type=submit] {
     background-color: #316F3E !important;
     color: white !important;
 }
 
 /* configuration fenetre pop-up*/
+.TitreBiere{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 64px;
+ }
 
 .blocachat{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center; 
+
 }
 
 .modal-body{
@@ -173,6 +177,29 @@ input[type=submit] {
 .SelectPanier{
     margin-bottom: 16px;
 }
+
+.barre{
+    height:5px;
+    width:80%;
+    background-color:lightgray;
+    
+ }
+ .Prix{
+     font-size: 20px;
+     font-family: 'Kaushan Script', cursive;
+ }
+ .Price{
+     display: flex;
+     justify-content: space-between;
+     padding:1em;
+ }
+
+ 
+ .modal{
+
+ }
+     
+
 
 /* Bullet Points */
 
