@@ -8,13 +8,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto mr-auto">
         <li>
-          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#products">Produits</a>
+          <a class="nav-link" href="product.php">Produits</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
       </ul>
    </div>
