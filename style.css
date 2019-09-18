@@ -308,6 +308,7 @@ padding: auto;
 dialog {
     width: 40%;
 }
+
 @media screen and (max-width: 575px){
 
     #pagnier{
@@ -326,4 +327,24 @@ dialog {
             margin-bottom: 50px;
         }
 
+}
+
+#ageCheck {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);   
+}
+
+#ageCheckContent {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 4px;
 }
