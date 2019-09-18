@@ -38,14 +38,26 @@
   }
  /*footer*/
 
+/* navbar */
 
 .bg-white {
-	background-color: #f0f5f3;
+	background-color: white;
+}
+nav h1 {
+	text-align: center;
+}
+.greenness {
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 55px;
+	color: black;
 }
 
-.greenness {
-	font-family: 'Kaushan Script', cursive;
-	font-size: 50px;
+h1 a:hover {
+	color: inherit;
+	}
+
+	
 }
 
 .bg-green {
