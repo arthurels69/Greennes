@@ -76,7 +76,7 @@
   <!-- Footer Links -->
 
   <!--message bas -->
-  <div class="message-bas"><p>© 2019 Greenes:<a href="https://www.wildcodeschool.com/fr-FR">By WildCodeSchool</a> - Good Beers, Enjoy ! </p>
+  <div class="message-bas"><p>© 2019 Greenes :<a href="https://www.wildcodeschool.com/fr-FR"> By WildCodeSchool</a> - Good Beers, Enjoy ! </p>
   <!-- message bas -->
   </div>
 
