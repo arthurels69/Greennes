@@ -29,9 +29,7 @@
       <![endif]-->
     </head>
   <body>
-    <?php  
-      include 'navbar.php';
-    ?>
+    <?php include 'navbar.php'; ?>
 
     <div class="container">
       <?php include 'carousel.php'; ?>
