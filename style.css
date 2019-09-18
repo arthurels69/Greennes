@@ -15,28 +15,28 @@
 }
 
 
-  .fa {
+.fa {
     padding-top: 20px;
     width: 50px;
     font-size: 70px;
     color: black;
-    
-  }
 
-  .fa:hover{
-      color:grey;
-  }
+}
+
+.fa:hover{
+    color:grey;
+}
 
 
-  .list-unstyled a {
-      color:black;
-  }
+.list-unstyled a {
+    color:black;
+}
 
-  .list-unstyled a:hover{
-      color: grey;
-      text-decoration: none;
-  }
- /*footer*/
+.list-unstyled a:hover{
+    color: grey;
+    text-decoration: none;
+}
+/*footer*/
 
 /* navbar */
 
