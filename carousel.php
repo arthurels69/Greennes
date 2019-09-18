@@ -9,16 +9,16 @@
         <div class="carousel-inner">
 
           <div class="carousel-item active">
-            <img class="d-block w-100" src="images/Idrink.jpg" alt="First slide">
+            <img class="d-block w-100" src="images/Idrink.png" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/Ipee.jpg" alt="Second slide">
+            <img class="d-block w-100" src="images/Ipee.png" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/Itsmakeatree.jpg" alt="Third slide">
+            <img class="d-block w-100" src="images/Itsmakeatree.png" alt="Third slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/Itsgreen.jpg" alt="Fourth slide">
+            <img class="d-block w-100" src="images/Itsgreen.png" alt="Fourth slide">
           </div>
 
           </div>

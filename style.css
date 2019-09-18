@@ -53,9 +53,6 @@ footer h5{
 
 /* navbar */
 
-.bg-white {
-	background-color: white;
-}
 nav h1 {
 	text-align: center;
 }
@@ -65,24 +62,30 @@ nav h1 {
 	font-size: 55px;
 	color: black;
 }
-
-h1 a:hover {
-	color: inherit;
-	}
-
-.bg-green {
-	background-color: #86f0c0;
+.glogo {
+    width: 45px;
+}
+.navbar{
+    box-shadow: 1px 1px 1px black;
 
 }
+
 /* Modifier la couleur du burger au survol */
 .btn-success:hover {
 	background-color:#99CC5B;
 }
 
-nav li
+nav ul li
 {
 	font-size: 19px;
+    margin:0 20px;
 }
+/* banniere */
+
+.background {
+    width: 100%;
+}
+
   
 body {
     font-family: 'Roboto', sans-serif;
@@ -190,6 +193,7 @@ span {
   }
 }
 
+
 /* livraison */
 
 .livraison{
@@ -215,4 +219,13 @@ padding: auto;
 #rocket{
     border-right: 1px solid black;
     border-left: 1px solid black;
+  
+ /* fin livraison */
+
+.m-title {
+    font-size: 1.5rem;
+}
+
+dialog {
+    width: 40%;
 }

@@ -29,7 +29,7 @@
     <![endif]-->
   </head>
   <body>
-    <?php include 'navbar.php' ?>
+    <?php include 'navbar.php'; ?>
 
     <div class="container">
         <section id="form" class="mt-4">
@@ -62,13 +62,14 @@
                 </div>  
             </form>
         </section>
-        <section>
-            <h2>Où nous trouver ?</h2>
+        <section class="mt-4">
+            <h2>Nos points de vente</h2>
             <div id='map'></div>
         </section>
     </div>
-    <?php include 'footer.php' ?>
-    
+    <?php include 'footer.php';
+    include 'age_check.php'; ?>
+
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoibWFydGlucml2aWVyZSIsImEiOiJjazBubXBvczQwMWRpM2hwcGV4c3pubHJ1In0.qtYexkvHKigcd_hgl4Q9jA';
         var map = new mapboxgl.Map({
