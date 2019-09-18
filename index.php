@@ -29,10 +29,12 @@
       <![endif]-->
     </head>
   <body>
-    <?php include 'navbar.php' ?>
+    <?php  
+      include 'navbar.php';
+    ?>
 
     <div class="container">
-      <?php include 'carousel.php' ?>
+      <?php include 'carousel.php'; ?>
   
   <!--Bullet Points Section -->
 
@@ -57,7 +59,8 @@
     </div>
       </div>
 
-    <?php include 'footer.php' ?>
+    <?php include 'footer.php';
+    include 'age_check.php'; ?>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
