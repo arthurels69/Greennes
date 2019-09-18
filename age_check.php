@@ -1,6 +1,6 @@
 <div id="ageCheck">
     <div id="ageCheckContent" class="justify-content">
-        <h1 class="m-title text-center">Tu es sur un site commercialisant des boissons alcoolisés, merci de confirmer ta date de naissance avant de continuer :</h1>
+        <h1 class="m-title text-center">Tu es sur un site commercialisant des boissons alcoolisées, merci de confirmer ta date de naissance avant de continuer :</h1>
         <form method="dialog">
             <div class="text-center">
                 <label for="birthDate"></label>
