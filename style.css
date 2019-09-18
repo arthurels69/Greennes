@@ -95,9 +95,9 @@ body {
 }
 #pagnier{
     padding-bottom: 1.5%;
-    
     position: absolute;
     right:1%;
+    top: 4px;
 }
 
 /* intégration étiquettes produit Charles */

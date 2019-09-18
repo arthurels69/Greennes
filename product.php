@@ -251,11 +251,11 @@
 					<div class="col d-flex justify-content-center">
 						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosverte">Buy now!</button>
 					</div>
-					<div class="modal fade" id="infosverte">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<?php include('tarifverte.php'); ?>
-							</div>
+				</div>
+				<div class="modal fade" id="infosverte">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<?php include('tarifverte.php'); ?>
 						</div>
 					</div>
 				</div>
