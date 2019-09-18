@@ -1,3 +1,97 @@
+
+/* style footer */
+
+
+.message-bas{
+    text-align: center;
+    margin-top: 40px;
+   
+}
+.message-bas a{
+    color:  #b4b9bf;
+    text-decoration: none;
+}
+.message-bas a:hover{
+    color: grey;
+}
+
+
+.fa {
+    padding-top: 20px;
+    width: 50px;
+    font-size: 70px;
+    color:  #b4b9bf;
+
+}
+
+.fa:hover{
+    color:grey;
+}
+
+
+.list-unstyled a {
+    color: #b4b9bf;
+}
+
+.list-unstyled a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #0a1a36;
+    color: #b4b9bf;
+}
+
+footer h5{
+    color: #dce1e8;
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
+    padding-top: 40px;
+}
+
+/*footer*/
+
+/* navbar */
+
+.bg-white {
+	background-color: white;
+}
+nav h1 {
+	text-align: center;
+}
+.greenness {
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 55px;
+	color: black;
+}
+
+h1 a:hover {
+	color: inherit;
+	}
+
+	
+}
+
+.bg-green {
+	background-color: #86f0c0;
+
+}
+/* Modifier la couleur du burger au survol */
+.btn-success:hover {
+	background-color:#99CC5B;
+}
+
+nav li
+{
+	font-size: 19px;
+}
+  
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .card_product{
 	margin-bottom: 32px;
 }
@@ -24,34 +118,26 @@
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
-  }
-
-.container{
-    font-family: 'Roboto';
 }
 
-h1 {
+h2 {
     text-align:center;
     text-decoration: none; 
- 
-}
-h2 {
-    color: white;
-    background-color: green;
-    text-align: center;
-    font-size: 30px;
-    
-
+    margin-bottom: 16px;
 }
 
-.bouton{
-    background-color: green;
-    ;
+#map {
+    height: 400px;
+    width: 100%;
 }
 
-#textarea{
-    height: 80%;
-    
+input, textarea {
+    margin-bottom: 8px;
+}
+
+input[type=submit] {
+    background-color: #316F3E !important;
+    color: white !important;
 }
 
 /* configuration fenetre pop-up*/
@@ -71,3 +157,31 @@ h2 {
 .SelectPanier{
     margin-bottom: 16px;
 }
+/* Bullet Points */
+
+img {
+    width: 20%;
+  }
+  
+  span {
+    border-bottom: 2px solid gray;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  img {
+    vertical-align: middle;
+    margin-bottom: 0.75em;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    margin-right: 40px;
+    text-align: justify;
+  }
+  
