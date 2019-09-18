@@ -5,7 +5,7 @@
 		
 		<p>Cette bière blanche trouble combine les saveurs fruitées des levures belges avec le côté épicé de la graine de coriandre et des écorces d’oranges. Très agréable à boire car elle est très pétillante. Servir frappée.</p>
 	</div>
-		<<div class="barre"></div>
+		<div class="barre"></div>
 		<div class="Price">
 			<h4 class="Prix"> 4 € l'unité </h4>
 
