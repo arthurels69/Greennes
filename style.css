@@ -53,9 +53,6 @@ footer h5{
 
 /* navbar */
 
-.bg-white {
-	background-color: white;
-}
 nav h1 {
 	text-align: center;
 }
@@ -65,56 +62,79 @@ nav h1 {
 	font-size: 55px;
 	color: black;
 }
-
-h1 a:hover {
-	color: inherit;
-	}
-
-.bg-green {
-	background-color: #86f0c0;
+.glogo {
+    width: 45px;
+    position: absolute;
+    top: 6px;
+}
+.navbar{
+    box-shadow: 1px 1px 1px black;
 
 }
+
 /* Modifier la couleur du burger au survol */
 .btn-success:hover {
 	background-color:#99CC5B;
 }
 
-nav li
+nav ul li
 {
 	font-size: 19px;
+    margin:0 20px;
 }
+/* banniere */
+
+.background {
+    width: 100%;
+}
+
   
 body {
     font-family: 'Roboto', sans-serif;
+    padding-right: 0 !important;
 }
 
-.card_product{
-	margin-bottom: 32px;
+/* intégration étiquettes produit Charles */
+
+.produit{
+	margin: 20px 20px 60px 20px;
+	border-radius: 8px;
 }
 
-.card_product img{
+.progress{
+	margin-bottom:16px;
+}
+
+.produit button{
+	margin-top:16px;
+	margin-bottom: 16px;
+}
+
+.descriptif{
+	text-align: center;
 	margin-top: 16px;
 }
 
-.bloc_product a{
-	text-decoration: none;
-	color: black;
-	cursor: pointer;
+.descriptif p{
+	margin-top: 24px;
+	min-height: 100px;
 }
 
-.card{
-	border:none;
+.descriptif h5{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+}
+.produit h6{
+	font-size: 12px;
 }
 
-.bloc_product table{
-	border-spacing : 0;
-	border-collapse : collapse;
-}
 
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
 }
+
+/* Fin */
 
 h2 {
     text-align:center;
@@ -217,7 +237,6 @@ margin-top:
     flex-direction: column;
   }
   
-  
   .video-paragraph {
     margin-top: 3%
   }
@@ -234,3 +253,43 @@ margin-top:
     width: 100%;
   }
   
+
+}
+
+
+/* livraison */
+
+.livraison{
+    margin-top:70px;
+    margin-bottom: 70px;
+}
+
+ .livraison .container{
+     text-align: center ;
+    
+color: black;
+padding: auto;
+}
+#logo .fa {
+    color: black;
+}
+#logo p {
+    
+    margin: auto;
+    padding-top: 10px;
+}
+
+#rocket{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+  
+ /* fin livraison */
+
+.m-title {
+    font-size: 1.5rem;
+}
+
+dialog {
+    width: 40%;
+}
