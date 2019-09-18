@@ -153,6 +153,21 @@ input[type=submit] {
     margin: 40px;
     text-align: justify;
   }
+
+  .video {
+    background-color: #98FB98;
+    width: 100%;
+    height: 315px;
+  }
+
+  .video-title {
+    position: absolute;
+    bottom: 5%;
+  }
+
+  .video-paragraph {
+
+  }
   
   @media screen and (max-width: 780px){
   
