@@ -35,7 +35,7 @@
       <?php include 'carousel.php' ?>
       
       <div>
-        <div class="container bloc_product">
+        <div class="container bloc_product mt-5">
           <div class="row">
             <!-- Ceci est une carte -->
             <div class="card_product col-12 col-lg-6">
