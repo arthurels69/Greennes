@@ -57,7 +57,7 @@
                         <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
                     </div>
                     <div class="col-2 offset-10">
-                        <input type="submit" class="btn float-right" value="Envoyer">
+                        <input type="submit" class="btn btn-green float-right" value="Envoyer">
                     </div>
                 </div>  
             </form>

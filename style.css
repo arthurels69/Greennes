@@ -151,7 +151,7 @@ input, textarea {
     margin-bottom: 8px;
 }
 
-.btn, input[type=submit] {
+.btn-green, input[type=submit] {
     background-color: #316F3E !important;
     color: white !important;
 }
@@ -194,10 +194,6 @@ input, textarea {
      padding:1em;
  }
 
- 
- .modal{
-
- }
      
 
 
@@ -251,7 +247,6 @@ margin-top: 18%;
 
 .video-title {
 color: black;
-margin-top: 
 }
 
 

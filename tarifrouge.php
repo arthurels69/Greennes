@@ -20,7 +20,7 @@
 			<option value="1">3</option>
 			<option value="1">4</option>
 		</select>
-		<button class="btn float right">Ajouter au panier</button>
+		<button class="btn btn-green float right">Ajouter au panier</button>
 	</div>
 </div>
 
