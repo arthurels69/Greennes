@@ -31,7 +31,7 @@
   <body>
     <?php include 'navbar.php' ?>
 
-    <div class="container">
+<div class="container">
       <?php include 'carousel.php' ?>
   
   <!--Bullet Points Section -->
@@ -54,13 +54,21 @@
             <img class="bullet-image" src="/images/3.png" alt="Protect your wallet">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
           </div>
-    </div>
-    <div class="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Vcvo_nA9hFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h2 class="video-title">We are not only making beers, we are purchasing a dream</h2>
-    <p class="video-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.</p>
-    </div>
-      </div>
+  </div>
+
+<!--Youtube video section-->
+  
+</div>
+
+<h2 class="video-title">We are not only making beers, we are purchasing a dream</h2>
+<div class="video">
+        <div class="video-part1">
+          <p class="video-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.</p>
+        </div>
+        <div class="video-part2">
+          <iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/Vcvo_nA9hFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+</div>
 
     <?php include 'footer.php' ?>
     

@@ -153,18 +153,19 @@ input[type=submit] {
 .SelectPanier{
     margin-bottom: 16px;
 }
+
 /* Bullet Points */
 
 
 .bullet-image {
-    width: 20%;
+  width: 20%;
 }
-  
+
 span {
-    border-bottom: 2px solid gray;
-    text-align: right;
-    font-size: 20px;
-    font-weight: bold;
+  border-bottom: 2px solid gray;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .bullet-image {
@@ -181,42 +182,55 @@ span {
   text-align: justify;
 }
 
-@media screen and (max-width: 780px){
+/*youtube video section */
+
+.video {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color:#0A1A36;
+  left:0;
+  width: 100vw ;
+  height: 315px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+.video-paragraph{
+color: white;
+margin-left: 7%;
+margin-top: 18%;
+}
+
+.video-title {
+color: black;
+margin-top: 
+}
+
+
+
+
+@media screen and (max-width: 1000px){
 
   .container1{
     display: flex;
     flex-direction: column;
   }
-<<<<<<< HEAD
   
-  .box {
-    margin: 40px;
-    text-align: justify;
-  }
-
-  .video {
-    background-color: #98FB98;
-    width: 100%;
-    height: 315px;
-  }
-
-  .video-title {
-    position: absolute;
-    bottom: 5%;
-  }
-
+  
   .video-paragraph {
-
+    margin-top: 3%
   }
   
-  @media screen and (max-width: 780px){
-  
-    .container1{
-      display: flex;
-      flex-direction: column;
-    }
+  .video {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    margin-top: 7%;
   }
   
-=======
-}
->>>>>>> 003d9f858f1cfe474e7e2127eca8b032abf65b9c
+  iframe {
+    width: 100%;
+  }
+  
