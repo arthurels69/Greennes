@@ -1,4 +1,4 @@
-<footer class="page-footer font-small blue pt-4">
+<footer class="page-footer font-small blue py-4 mt-4">
 
   <!-- Footer Links -->
   <div class="container text-center text-md-left">
@@ -76,7 +76,8 @@
   <!-- Footer Links -->
 
   <!--message bas -->
-  <div class="message-bas"><p>© 2019 Greenes:<a href="https://www.wildcodeschool.com/fr-FR">By WildCodeSchool</a> - Good Beers, Enjoy ! </p>
+  <div class="message-bas">
+    © 2019 Greenness :<a href="https://www.wildcodeschool.com/fr-FR"> By WildCodeSchool</a> - Good Beers, Enjoy !
   <!-- message bas -->
   </div>
 
