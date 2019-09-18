@@ -8,7 +8,7 @@ if (!(sessionStorage.getItem('age'))) {
     const currentDate = new Date()
     currentYear = currentDate.getFullYear()
     form.addEventListener('submit', (e) => {
-        if (birthDate.value === "") {
+        if (birthDate.value === "" || birthDate.value.length > 10) {
             e.preventDefault()
         }
         else if (currentYear - birthDate.value.substring(0, 4) < 18) {
@@ -25,6 +25,7 @@ if (!(sessionStorage.getItem('age'))) {
             setTimeout(() => window.history.back(), 3000)
         } else {
             sessionStorage.setItem('age', 'majeur')
+            console.log(birthDate.value.length)
         }
     })
 }  
