@@ -192,3 +192,11 @@ span {
     flex-direction: column;
   }
 }
+
+.m-title {
+    font-size: 1.5rem;
+}
+
+dialog {
+    width: 40%;
+}
