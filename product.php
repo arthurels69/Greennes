@@ -267,6 +267,10 @@
 			</div>
     </div>
   </div>
+		  
+
+
+<?php include 'livraison.php' ?>
 
   <?php include 'footer.php' ?>
 
