@@ -189,3 +189,25 @@ span {
     flex-direction: column;
   }
 }
+
+/* livraison */
+
+.livraison{
+    margin-top:70px;
+    margin-bottom: 70px;
+}
+
+ .livraison .container{
+     text-align: center ;
+    
+color: black;
+padding: auto;
+}
+#logo .fa {
+    color: black;
+}
+#logo p {
+    width: 23%;
+    margin: auto;
+    padding-top: 10px;
+}
