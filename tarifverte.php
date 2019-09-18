@@ -1,10 +1,19 @@
 <div class="blocachat">
-	<h4 class="modal-title">Commandez-moi !</h4>
-	<img src="./images/Canette verte.jpg"class="img-fluid" alt="canette verte" height="80" width="160">
+<h4 class="TitreBiere">Bière Verte</h4>
+	<img src="./images/Canette verte.jpg"class="img-fluid" alt="canette verte" height="70" width="140">
 	<div class="modal-body">
-		<p>
-			Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
-			<p></div>
+	
+		<p>Bière verte aux saveurs herbales et légèrement amères. Au nez, elle est mentholée. La finale en bouche est courte et assez herbale.Le gluten est éliminé au cours du processus de brassage – chaque lot est contrôlé à un niveau inférieur à 20 ppm.</p>		
+</div>		
+	<div class="barre"></div>
+		<div class="Price">
+			<h4 class="Prix"> 4 € l'unité </h4>
+
+	</div>
+		<div class="Price">
+			<h4 class="Prix"> 20 € les 6 </h4>
+		</div>	
+
 			<div class="SelectPanier">
 				<select id="qt" name="q">
 					<option value="1">1</option>
@@ -12,7 +21,7 @@
 					<option value="1">3</option>
 					<option value="1">4</option>
 				</select>
-				<button type="button" class="ajout">Ajouter au panier</button>
+				<button class="btn float right">Ajouter au panier</button>
 			</div>
 		</div>
 		<!-- Optional JavaScript -->
