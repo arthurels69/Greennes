@@ -53,9 +53,6 @@ footer h5{
 
 /* navbar */
 
-.bg-white {
-	background-color: white;
-}
 nav h1 {
 	text-align: center;
 }
@@ -65,25 +62,24 @@ nav h1 {
 	font-size: 55px;
 	color: black;
 }
-
-h1 a:hover {
-	color: inherit;
-	}
-
-.bg-green {
-	background-color: #86f0c0;
+.glogo {
+    width: 45px;
+}
+.navbar{
+    box-shadow: 1px 1px 1px black;
 
 }
+
 /* Modifier la couleur du burger au survol */
 .btn-success:hover {
 	background-color:#99CC5B;
 }
 
-nav li
+nav ul li
 {
 	font-size: 19px;
+    margin:0 20px;
 }
-
 /* banniere */
 
 .background {

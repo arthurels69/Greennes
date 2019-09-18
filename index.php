@@ -31,6 +31,8 @@
   <body>
     <?php include 'navbar.php' ?>
 
+     <img class="background" src="images/Greenness_bg.jpg" alt="background"></img>
+
     <div class="container">
       <?php include 'carousel.php' ?>
   
