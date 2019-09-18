@@ -39,7 +39,6 @@
 				<div class="row">
 					<!-- Ceci est une carte -->
 					<div class="card_product col-12 col-lg-6">
-						<a href="#">
 						
 					
 							<div class="card" style="height: 100%;">
@@ -98,11 +97,9 @@
 									</div>
 								</div>
 							</div>
-						</a>
 					</div>
 					<!-- Ceci est une carte -->
 					<div class="card_product col-12 col-lg-6">
-						<a href="#">
 							<div class="card" style="height: 100%;">
 								<div class="row no-gutters" style="height: 100%;">
 									<div class="col-12 col-sm-4">
@@ -155,11 +152,9 @@
 									</div>
 								</div>
 							</div>
-						</a>
 					</div>
 					<!-- Ceci est une carte -->
 					<div class="card_product col-12 col-lg-6">
-						<a href="#">
 							<div class="card" style="height: 100%;">
 								<div class="row no-gutters">
 									<div class="col-12 col-sm-4">
@@ -212,11 +207,9 @@
 									</div>
 								</div>
 							</div>
-						</a>
 					</div>
 					<!-- Ceci est une carte -->
 					<div class="card_product col-12 col-lg-6">
-						<a href="#">
 							<div class="card" style="height: 100%;">
 								<div class="row no-gutters" style="height: 100%;">
 									<div class="col-12 col-sm-4">
@@ -269,13 +262,12 @@
 									</div>
 								</div>
 							</div>
-						</a>
 					</div>
 				</div>
 			</div>
     </div>
   </div>
-  
+
   <?php include 'footer.php' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
