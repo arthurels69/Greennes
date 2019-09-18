@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-12 col-lg-10 col-lg-offset-1 ">
 
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
 
           <div class="carousel-item active">
