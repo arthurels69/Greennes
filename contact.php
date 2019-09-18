@@ -71,32 +71,32 @@
     </div>
     <?php include 'footer.php' ?>
     
-            <script>
-                mapboxgl.accessToken = 'pk.eyJ1IjoibWFydGlucml2aWVyZSIsImEiOiJjazBubXBvczQwMWRpM2hwcGV4c3pubHJ1In0.qtYexkvHKigcd_hgl4Q9jA';
-                var map = new mapboxgl.Map({
-                container: 'map',
-                style: 'mapbox://styles/martinriviere/ck0nkniw001wt1crx8wpias1s', // replace this with your style URL
-                center: [2.3922962, 46.7737294],
-                zoom: 4
-                });
-                // code from the next step will go here
-                map.on('click', function(e) {
-                    var features = map.queryRenderedFeatures(e.point, {
-                        layers: ['greenness'] // replace this with the name of the layer
-                    });
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWFydGlucml2aWVyZSIsImEiOiJjazBubXBvczQwMWRpM2hwcGV4c3pubHJ1In0.qtYexkvHKigcd_hgl4Q9jA';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/martinriviere/ck0nkniw001wt1crx8wpias1s', // replace this with your style URL
+        center: [2.3922962, 46.7737294],
+        zoom: 4
+        });
+        // code from the next step will go here
+        map.on('click', function(e) {
+            var features = map.queryRenderedFeatures(e.point, {
+                layers: ['greenness'] // replace this with the name of the layer
+            });
 
-                    if (!features.length) {
-                        return;
-                    }
+            if (!features.length) {
+                return;
+            }
 
-                    var feature = features[0];
+            var feature = features[0];
 
-                    var popup = new mapboxgl.Popup({ offset: [0, -15] })
-                        .setLngLat(feature.geometry.coordinates)
-                        .setHTML('<h3>' + feature.properties.description + '</h3><p>' + feature.properties.address + '</p>')
-                        .addTo(map);
-                    });
-                </script>
+            var popup = new mapboxgl.Popup({ offset: [0, -15] })
+                .setLngLat(feature.geometry.coordinates)
+                .setHTML('<h3>' + feature.properties.description + '</h3><p>' + feature.properties.address + '</p>')
+                .addTo(map);
+            });
+    </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
