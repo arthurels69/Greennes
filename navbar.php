@@ -40,14 +40,14 @@
                 <ul class="navbar-nav">
 
                   <li class="nav-item col">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="index.php" class="nav-link">Home</a>
                   </li>
 
                   <li class="nav-item col">
-                    <a href="#produits" class="nav-link">Produits</a>
+                    <a href="product.php" class="nav-link">Produits</a>
                   </li>
                   <li class="nav-item col">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="contact.php" class="nav-link">Contact</a>
                   </li>
                 </ul>
               </div>
