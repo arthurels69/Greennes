@@ -207,7 +207,12 @@ padding: auto;
     color: black;
 }
 #logo p {
-    width: 23%;
+    
     margin: auto;
     padding-top: 10px;
+}
+
+#rocket{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
