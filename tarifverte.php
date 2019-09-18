@@ -1,6 +1,6 @@
 <div class="blocachat">
 <h4 class="TitreBiere">Bière Verte</h4>
-	<img src="./images/Canette verte.jpg"class="img-fluid" alt="canette verte" height="70" width="140">
+	<img src="./images/Canette_verte.png"class="img-fluid" alt="canette verte" height="70" width="140">
 	<div class="modal-body">
 	
 		<p>Bière verte aux saveurs herbales et légèrement amères. Au nez, elle est mentholée. La finale en bouche est courte et assez herbale.Le gluten est éliminé au cours du processus de brassage – chaque lot est contrôlé à un niveau inférieur à 20 ppm.</p>		
