@@ -1,6 +1,6 @@
 <div class="blocachat">
 	<h4 class="TitreBiere">Bière Bleue</h4>
-	<img src="./images/Canette bleue.jpg"class="img-fluid" alt="canette bleue" height="70" width="140">
+	<img src="./images/Canette_bleu.png"class="img-fluid" alt="canette bleue" height="70" width="140">
 	<div class="modal-body">
 		
 		<p>Cette bière blanche trouble combine les saveurs fruitées des levures belges avec le côté épicé de la graine de coriandre et des écorces d’oranges. Très agréable à boire car elle est très pétillante. Servir frappée.</p>

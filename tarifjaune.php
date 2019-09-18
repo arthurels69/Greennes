@@ -1,6 +1,6 @@
 <div class="blocachat">
 <h4 class="TitreBiere">Bière Jaune</h4>
-	<img src="./images/Canette jaune.jpg"class="img-fluid" alt="canette jaune" height="70" width="140">
+	<img src="./images/Canette_jaune.png"class="img-fluid" alt="canette jaune" height="70" width="140">
 	<div class ="modal-body">
 		<p>Bière trappiste parfaitement équilibrée à la robe brun-rouge. Léger goût sucré et arômes de chocolat, de fruits secs, de pain grillé et de caramel.</p>
 	</div>
