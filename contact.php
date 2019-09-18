@@ -32,10 +32,6 @@
     <?php include 'navbar.php' ?>
 
     <div class="container">
-        <section>
-            <h2>Où nous trouver ?</h2>
-            <div id='map'></div>
-        </section>
         <section id="form" class="mt-4">
             <h2 id="Contact">Contact</h1>
             <form>
@@ -65,6 +61,10 @@
                     </div>
                 </div>  
             </form>
+        </section>
+        <section>
+            <h2>Où nous trouver ?</h2>
+            <div id='map'></div>
         </section>
     </div>
     <?php include 'footer.php' ?>
