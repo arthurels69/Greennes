@@ -17,5 +17,9 @@
           <a class="nav-link" href="contact.php">Contact</a>
         </li>
       </ul>
+     
+      
    </div>
+   <div id="pagnier" class="fa fa-shopping-basket fa-lg" ></div>
+   
 </nav>

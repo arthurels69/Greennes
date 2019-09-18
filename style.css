@@ -92,6 +92,12 @@ body {
     font-family: 'Roboto', sans-serif;
     padding-right: 0 !important;
 }
+#pagnier{
+    padding-bottom: 1%;
+    
+    position: absolute;
+    right:1%;
+}
 
 /* intégration étiquettes produit Charles */
 
