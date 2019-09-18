@@ -1,6 +1,7 @@
 if (!(sessionStorage.getItem('age'))) {
     ageCheck = document.getElementById("ageCheck")
-    ageCheck.showModal()
+    ageCheck.style.display = "block"
+    ageCheckContent = document.getElementById("ageCheckContent")
     form = document.querySelector("form")
     birthDate = document.getElementById("birthDate")
     confirmBtn = document.getElementById("confirmBtn")
@@ -20,12 +21,12 @@ if (!(sessionStorage.getItem('age'))) {
             } else {
                 pElt.textContent = "Vous êtes mineur et n'avez pas accès à ce site"
             }
-            ageCheck.innerHTML = ""
-            ageCheck.appendChild(pElt)
+            ageCheckContent.innerHTML = ""
+            ageCheckContent.appendChild(pElt)
             setTimeout(() => window.history.back(), 3000)
         } else {
             sessionStorage.setItem('age', 'majeur')
-            console.log(birthDate.value.length)
+            ageCheck.style.display = "none"
         }
     })
 }  
