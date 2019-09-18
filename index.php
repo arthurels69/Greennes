@@ -56,8 +56,19 @@
             <img class="bullet-image" src="/images/3.png" alt="Protect your wallet">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
           </div>
-    </div>
-      </div>
+  </div>
+
+<!--Youtube video section-->
+  
+</div>
+
+<h2 class="video-title"><b>We are not only making beers, we are purchasing a dream</b></h2>
+<div class="video">
+        
+        <div class="video-part2">
+          <iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/Vcvo_nA9hFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+</div>
 
     <?php include 'footer.php';
     include 'age_check.php'; ?>

@@ -42,7 +42,7 @@
 			<div class="produit">
 				<div class="row">
 					<div class="col-12 col-md-5 col-lg-12 col-lg-12">
-						<img src="./images/Canette bleue.jpg" alt="canette bleue" class="img-fluid rounded mx-auto d-block" style="width: 80%">
+						<img src="./images/Canette_bleu.png" alt="canette bleue" class="img-fluid rounded mx-auto d-block" style="width: 80%">
 					</div>
 					<div class="descriptif col-12 col-md-7 col-lg-12">
 						<h5>
@@ -83,7 +83,7 @@
 					<div class="col d-flex justify-content-center">
 						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosbleue">Buy now!</button>
 					</div>
-					<div class="modal" id="infosbleue">
+					<div class="modal fade" id="infosbleue">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<?php include('tarifbleue.php'); ?>
@@ -98,7 +98,7 @@
 			<div class="produit">
 				<div class="row">
 					<div class="col-12 col-md-5 col-lg-12">
-						<img src="./images/Canette jaune.jpg" alt="canette jaune" class="img-fluid rounded mx-auto d-block" style="width: 80%">
+						<img src="./images/Canette_jaune.png" alt="canette jaune" class="img-fluid rounded mx-auto d-block" style="width: 80%">
 					</div>
 					<div class="descriptif col-12 col-md-7 col-lg-12">
 						<h5>
@@ -139,7 +139,7 @@
 					<div class="col d-flex justify-content-center">
 						<button type="button" class="btn btn-warning btn-lg"data-toggle="modal" data-target="#infosjaune">Buy now!</button>
 					</div>
-					<div class="modal" id="infosjaune">
+					<div class="modal fade" id="infosjaune">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<?php include('tarifjaune.php'); ?>
@@ -154,7 +154,7 @@
 			<div class="produit">
 				<div class="row">
 					<div class="col-12 col-md-5 col-lg-12 col-lg-12">
-						<img src="./images/Canette rouge.jpg" alt="canette rouge" class="img-fluid rounded mx-auto d-block" style="width: 80%">
+						<img src="./images/Canette_rouge.png" alt="canette rouge" class="img-fluid rounded mx-auto d-block" style="width: 80%">
 					</div>
 					<div class="descriptif col-12 col-md-7 col-lg-12">
 						<h5>
@@ -195,7 +195,7 @@
 					<div class="col d-flex justify-content-center">
 						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosrouge">Buy now!</button>
 					</div>
-					<div class="modal" id="infosrouge">
+					<div class="modal fade" id="infosrouge">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<?php include('tarifrouge.php'); ?>
@@ -210,7 +210,7 @@
 			<div class="produit">
 				<div class="row">
 					<div class="col-12 col-md-5 col-lg-12">
-						<img src="./images/Canette verte.jpg" alt="canette verte" class="img-fluid rounded mx-auto d-block" style="width: 80%">
+						<img src="./images/Canette_verte.png" alt="canette verte" class="img-fluid rounded mx-auto d-block" style="width: 80%">
 					</div>
 					<div class="descriptif col-12 col-md-7 col-lg-12">
 						<h5>
@@ -251,11 +251,11 @@
 					<div class="col d-flex justify-content-center">
 						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosverte">Buy now!</button>
 					</div>
-					<div class="modal" id="infosverte">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<?php include('tarifverte.php'); ?>
-							</div>
+				</div>
+				<div class="modal fade" id="infosverte">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<?php include('tarifverte.php'); ?>
 						</div>
 					</div>
 				</div>
