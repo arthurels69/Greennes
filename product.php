@@ -34,7 +34,7 @@
     <div class="container">
       <?php include 'carousel.php' ?>
       
-<div>
+    <div>
 			<div class="container bloc_product">
 				<div class="row">
 					<!-- Ceci est une carte -->
@@ -273,8 +273,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
-    <?php include 'footer.php' ?>
+    </div>
+  </div>
+  
+  <?php include 'footer.php' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
