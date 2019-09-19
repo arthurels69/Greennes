@@ -81,7 +81,7 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos1">Plus d'infos</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos1">Achète moi !</button>
 					</div>
 					<div class="modal fade" id="infos1">
 						<div class="modal-dialog">
@@ -137,7 +137,7 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos2">Plus d'infos</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos2">Achète moi !</button>
 					</div>
 					<div class="modal fade" id="infos2">
 						<div class="modal-dialog">
@@ -193,7 +193,7 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos3">Plus d'infos</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos3">Achète moi !</button>
 					</div>
 					<div class="modal fade" id="infos3">
 						<div class="modal-dialog">
@@ -249,7 +249,7 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos4">Plus d'infos</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos4">Achète moi !</button>
 					</div>
 				</div>
 				<div class="modal fade" id="infos4">

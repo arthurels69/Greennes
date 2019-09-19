@@ -362,3 +362,7 @@ padding: auto;
 h1, h2, h3, h4, h5, .bullet-title, .greenness, .Prix, .TitreBiere {
     font-family: 'Kaushan Script', cursive;
 }
+
+.quantity {
+    width: 70px;
+}

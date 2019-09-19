@@ -13,13 +13,8 @@
 		<div class="Price">
 			<h4 class="Prix"> 20 € les 6 </h4>
 		</div>	
-	<form method="dialog" class="SelectPanier addToCart">
-		<select id="quantity1">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
-		</select>
+	<form method="dialog" class="SelectPanier addToCart d-flex">
+		<input type="number" id="quantity1" class="form-control quantity mr-2" value="1">
 		<input type="submit" value="Ajouter au panier" class="btn btn-green float right">
 	</form>
 </div>
