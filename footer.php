@@ -12,8 +12,8 @@
         <!-- Content -->
         <h5 >Nous trouver</h5>
         <br>
-        <p>Lieu de brassage : 27 rue Delandine 69002, Lyon</p>
-        <p>Bureau : 20 Avenue de la Répubique 69002, Lyon</p>
+        <p>Lieu de brassage : 17 rue Delandine 69002 Lyon</p>
+        <p>Bureau : 20 avenue de la Répubique 69002 Lyon</p>
 
       </div>
       <!-- Grid column -->
@@ -30,13 +30,13 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Home</a>
+            <a href="index.php">Home</a>
           </li>
           <li>
-            <a href="#!">Product</a>
+            <a href="product.php">Product</a>
           </li>
           <li>
-            <a href="#!">contact</a>
+            <a href="contact.php">Contact</a>
           </li>
           <li>
             <a href="https://www.labierepression.fr/votre-age/?origin=https%3A%2F%2Fwww.labierepression.fr%2F">Lien Beertender</a>

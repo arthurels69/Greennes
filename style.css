@@ -44,7 +44,6 @@ footer{
 
 footer h5{
     color: #dce1e8;
-    font-family: 'Kaushan Script', cursive;
     font-size: x-large;
     padding-top: 40px;
 }
@@ -58,7 +57,6 @@ nav h1 {
 }
 .greenness {
 	text-align: center;
-	font-family: 'Kaushan Script', cursive;
 	font-size: 55px;
 	color: black;
 }
@@ -126,7 +124,6 @@ body {
 }
 
 .descriptif h5{
-	font-family: 'Kaushan Script', cursive;
 	font-size: 40px;
 }
 .produit h6{
@@ -162,8 +159,7 @@ input, textarea {
 }
 
 /* configuration fenetre pop-up*/
-.TitreBiere{
-    font-family: 'Kaushan Script', cursive;
+.TitreBiere {
     font-size: 64px;
  }
 
@@ -189,9 +185,8 @@ input, textarea {
     background-color:lightgray;
     
  }
- .Prix{
+ .Prix {
      font-size: 20px;
-     font-family: 'Kaushan Script', cursive;
  }
  .Price{
      display: flex;
@@ -209,12 +204,11 @@ input, textarea {
   width: 20%;
 }
 
-span {
+.bullet-title {
   border-bottom: 2px solid gray;
   text-align: right;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Kaushan Script', cursive;
 }
 
 .bullet-image {
@@ -239,9 +233,6 @@ text-align: center;
 
 margin-top: 40px;
 margin-bottom: 60px;}
-
-
-
 
 
 @media screen and (max-width: 1000px){
@@ -343,4 +334,8 @@ padding: auto;
     padding: 16px;
     width: 40%;
     border-radius: 4px;
+}
+
+h1, h2, h3, h4, h5, .bullet-title, .greenness, .Prix, .TitreBiere {
+    font-family: 'Kaushan Script', cursive;
 }
