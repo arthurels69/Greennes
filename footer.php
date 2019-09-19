@@ -85,10 +85,12 @@
 
 <script>
   let totalQuantity
-if (sessionStorage.getItem('cart')) {
-    totalQuantity = parseInt(sessionStorage.getItem('cart'))
-} else {
-    totalQuantity = 0
-}
-document.getElementById("nbItems").textContent = totalQuantity
+  const nbItems = document.getElementById("nbItems")
+  if (sessionStorage.getItem('cart')) {
+      totalQuantity = parseInt(sessionStorage.getItem('cart'))
+      nbItems.textContent = totalQuantity
+      nbItems.style.display = "block"
+  } else {
+      totalQuantity = 0
+  }
 </script>
