@@ -41,19 +41,19 @@
 
   <div class="container1">
           <div class="box">
-            <span>Protect The Nature</span>
+            <span class="bullet-title">Protect The Nature</span>
             <img class="bullet-image"src="/images/1.png" alt="Protect the nature">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
   
           <div class="box">
-            <span>Protect Your Health</span>
+            <span class="bullet-title">Protect Your Health</span>
             <img class="bullet-image" src="/images/2.png" alt="Protect your health">      
             <p class="cup">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
   
           <div class="box">
-            <span>Protect Your Wallet</span>
+            <span class="bullet-title">Protect Your Wallet</span>
             <img class="bullet-image" src="/images/3.png" alt="Protect your wallet">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
           </div>
@@ -62,7 +62,7 @@
 <!--Youtube video section-->
  </div>  
 
-<h2 class="video-title"><b>We are not only making beers, we are purchasing a dream</b></h2>
+<h2>We are not only making beers, we are purchasing a dream</h2>
 <div class="video">
         
         <div class="video-part2">
