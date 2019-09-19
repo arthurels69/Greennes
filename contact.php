@@ -32,7 +32,7 @@
     <?php include 'navbar.php'; ?>
 
     <div class="container d-flex flex-column flex-md-column-reverse">
-        <section id="form" class="mt-4">
+        <section id="form" class="mt-5">
             <h2 id="Contact">Contact</h1>
             <form>
                 <div class="row">
@@ -62,7 +62,7 @@
                 </div>  
             </form>
         </section>
-        <section class="mt-4">
+        <section class="mt-5">
             <h2>Nos points de vente</h2>
             <div id='map'></div>
         </section>
