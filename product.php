@@ -137,7 +137,7 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg"data-toggle="modal" data-target="#infosjaune">Plus d'infos</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosjaune">Plus d'infos</button>
 					</div>
 					<div class="modal fade" id="infosjaune">
 						<div class="modal-dialog">
@@ -289,6 +289,8 @@
 
   <?php include 'footer.php';
   include 'age_check.php'; ?>
+
+	<script src="cart.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

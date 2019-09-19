@@ -16,11 +16,9 @@
 
 
 .fa {
-    padding-top: 20px;
     width: 50px;
     font-size: 70px;
     color:  #b4b9bf;
-
 }
 
 .fa:hover{
@@ -90,11 +88,29 @@ nav ul li
 body {
     font-family: 'Roboto', sans-serif;
 }
-#pagnier{
-    padding-bottom: 1.5%;
+#panier{
     position: absolute;
-    right:1%;
-    top: 4px;
+    right:20px;
+    top: 22px;
+}
+
+#nbItems {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background-color: red;
+    color: white;
+    border-radius:50%;
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+}
+
+#basket-container {
+    height: 20px;
+    width: 20px;
 }
 
 /* intégration étiquettes produit Charles */
@@ -298,9 +314,8 @@ padding: auto;
 
 @media screen and (max-width: 575px){
 
-    #pagnier{
+    #panier{
         right:60px;
-        padding-bottom: 2%;
     }
 
 

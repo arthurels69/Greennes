@@ -14,13 +14,13 @@
 			<h4 class="Prix"> 20 € les 6 </h4>
 		</div>	
 
-			<div class="SelectPanier">
-				<select id="qt" name="q">
+			<form class="SelectPanier addToCart">
+				<select id="qt" name="quantity">
 					<option value="1">1</option>
 					<option value="1">2</option>
 					<option value="1">3</option>
 					<option value="1">4</option>
 				</select>
-				<button class="btn btn-green float right">Ajouter au panier</button>
-			</div>
+				<input type="submit" value="Ajouter au panier" class="btn btn-green float right">
+			</form>
 		</div>
