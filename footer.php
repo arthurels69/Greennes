@@ -55,13 +55,13 @@
 
         <ul class="list-unstyled">
           <li>
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="pt-2 fa fa-facebook"></a>
+          <a href="#" class="pt-2 fa fa-twitter"></a>
 
           </li>
           <li>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="pt-3 fa fa-instagram"></a>
+            <a href="#" class="pt-3 fa fa-pinterest"></a>
           </li>
           
         </ul>

@@ -18,6 +18,10 @@
       </li>
     </ul>
   </div>
-  <div id="pagnier" class="fa fa-shopping-basket fa-lg" ></div>
-
+    <div id="panier">
+      <div id="basket-container" class="position-relative">
+        <span class="position-absolute fa fa-shopping-basket fa-lg" ></span>
+        <span id="nbItems"></div>
+      </div>
+    </div>
 </nav>
