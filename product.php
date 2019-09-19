@@ -33,9 +33,7 @@
   <body>
     <?php include 'navbar.php'; ?>
 
-    <div class="container">
-
-      	<?php include 'carousel.php' ?>
+    	<img class="beer" src="images/beerbanner.jpg" alt="Beer picture"></img>
     
     	<div class="container" style="margin-top: 80px;">
 	<div class="row">

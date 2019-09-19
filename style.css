@@ -68,8 +68,12 @@ nav h1 {
 	width: 47px;
 }
 .navbar{
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 1px 1px gray;
 
+}
+
+.beer {
+	width: 100%;
 }
 
 /* Modifier la couleur du burger au survol */
