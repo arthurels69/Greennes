@@ -31,7 +31,7 @@
   <body>
     <?php include 'navbar.php'; ?>
 
-    <div class="container">
+    <div class="container d-flex flex-column flex-md-column-reverse">
         <section id="form" class="mt-4">
             <h2 id="Contact">Contact</h1>
             <form>
