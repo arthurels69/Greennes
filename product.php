@@ -33,9 +33,7 @@
   <body>
     <?php include 'navbar.php'; ?>
 
-    <div class="container">
-
-      	<?php include 'carousel.php' ?>
+    	<img class="beer" src="images/beerbanner.jpg" alt="Beer picture"></img>
     
     	<div class="container" style="margin-top: 80px;">
 	<div class="row">
@@ -84,6 +82,7 @@
 				<div class="row">
 					<div class="col d-flex justify-content-center">
 						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos1">Achète moi !</button>
+						
 					</div>
 					<div class="modal fade" id="infos1">
 						<div class="modal-dialog">
@@ -95,6 +94,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<!--Produit 2 -->
 		<div class="col-12 col-lg-6">
 			<div class="produit">
