@@ -21,5 +21,5 @@
 			<option value="1">4</option>
 		</select>
 		<input type="submit" value="Ajouter au panier" class="btn btn-green float right">
-	</div>
+	</form>
 </div>
