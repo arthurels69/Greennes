@@ -1,6 +1,6 @@
       <!-- Navbar -->
 <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
-  <img class="glogo" src="images/glogo.png" alt="logo greenness">
+  <a href="index.php"><img class="glogo" src="images/glogo.png" "alt="logo greenness"></a>
   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
