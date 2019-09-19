@@ -63,6 +63,10 @@ nav h1 {
     position: absolute;
     top: 6px;
 }
+
+.glogo:hover {
+	width: 47px;
+}
 .navbar{
     box-shadow: 1px 1px 1px black;
 
