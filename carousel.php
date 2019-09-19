@@ -3,7 +3,7 @@
 <section id="carousel">
     <div class="offset-1 col-10">
 
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2500">
         <div class="carousel-inner">
 
           <div class="carousel-item active">

@@ -42,7 +42,7 @@
 			<div class="produit">
 				<div class="row">
 					<div class="col-12 col-md-5 col-lg-12 col-lg-12">
-						<img src="./images/Canette_bleu.png" alt="canette bleue" class="img-fluid rounded mx-auto d-block" style="width: 80%">
+						<img src="./images/Canette_bleu.png" alt="canette bleue" class="img-fluid rounded mx-auto d-block" style="width: 75%">
 					</div>
 					<div class="descriptif col-12 col-md-7 col-lg-12">
 						<h5>
@@ -98,7 +98,7 @@
 			<div class="produit">
 				<div class="row">
 					<div class="col-12 col-md-5 col-lg-12">
-						<img src="./images/Canette_jaune.png" alt="canette jaune" class="img-fluid rounded mx-auto d-block" style="width: 80%">
+						<img src="./images/Canette_jaune.png" alt="canette jaune" class="img-fluid rounded mx-auto d-block" style="width: 75%">
 					</div>
 					<div class="descriptif col-12 col-md-7 col-lg-12">
 						<h5>
@@ -154,7 +154,7 @@
 			<div class="produit">
 				<div class="row">
 					<div class="col-12 col-md-5 col-lg-12 col-lg-12">
-						<img src="./images/Canette_rouge.png" alt="canette rouge" class="img-fluid rounded mx-auto d-block" style="width: 80%">
+						<img src="./images/Canette_rouge.png" alt="canette rouge" class="img-fluid rounded mx-auto d-block" style="width: 75%">
 					</div>
 					<div class="descriptif col-12 col-md-7 col-lg-12">
 						<h5>
@@ -210,7 +210,7 @@
 			<div class="produit">
 				<div class="row">
 					<div class="col-12 col-md-5 col-lg-12">
-						<img src="./images/Canette_verte.png" alt="canette verte" class="img-fluid rounded mx-auto d-block" style="width: 80%">
+						<img src="./images/Canette_verte.png" alt="canette verte" class="img-fluid rounded mx-auto d-block" style="width: 75%">
 					</div>
 					<div class="descriptif col-12 col-md-7 col-lg-12">
 						<h5>

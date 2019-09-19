@@ -210,7 +210,12 @@ input, textarea {
      padding:1em;
  }
 
-     
+/* carousel */
+
+#carousel {
+
+	margin-top: 70px;
+}     
 
 
 /* Bullet Points */
@@ -234,6 +239,8 @@ input, textarea {
 
 .container1 {
   display: flex;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .box {
@@ -275,6 +282,16 @@ margin-bottom: 60px;}
   }
   
 
+}
+
+#contact {
+	margin-top: 50px;
+}
+
+form { margin-top: 40px; }
+
+#map {
+	margin-top: 40px;
 }
 
 
