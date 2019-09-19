@@ -1,5 +1,8 @@
 <div class="blocachat">
 <h4 class="TitreBiere">Bière Rouge</h4>
+	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
 	<img src="./images/Canette_rouge.png"class="img-fluid" alt="canette rouge" height="70" width="140">
 	<div class="modal-body">
 		
