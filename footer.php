@@ -30,10 +30,10 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="index.php">Home</a>
+            <a href="index.php">Acceuil</a>
           </li>
           <li>
-            <a href="product.php">Product</a>
+            <a href="product.php">Produits</a>
           </li>
           <li>
             <a href="contact.php">Contact</a>
