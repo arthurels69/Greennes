@@ -1,9 +1,7 @@
  <!-- Carousel -->
  
 <section id="carousel">
-
-  <div class="row">
-    <div class="col-12 col-lg-10 col-lg-offset-1 ">
+    <div class="offset-1 col-10">
 
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">

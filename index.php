@@ -35,6 +35,7 @@
 
     <div class="container">
       <?php include 'carousel.php'; ?>
+     
   
   <!--Bullet Points Section -->
 
@@ -59,8 +60,7 @@
   </div>
 
 <!--Youtube video section-->
-  
-</div>
+ </div>  
 
 <h2 class="video-title"><b>We are not only making beers, we are purchasing a dream</b></h2>
 <div class="video">
