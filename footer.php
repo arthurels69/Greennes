@@ -82,3 +82,13 @@
   </div>
 
 </footer>
+
+<script>
+  let totalQuantity
+if (sessionStorage.getItem('cart')) {
+    totalQuantity = parseInt(sessionStorage.getItem('cart'))
+} else {
+    totalQuantity = 0
+}
+document.getElementById("nbItems").textContent = totalQuantity
+</script>
