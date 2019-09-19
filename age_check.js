@@ -1,8 +1,9 @@
 if (!(sessionStorage.getItem('age'))) {
     ageCheck = document.getElementById("ageCheck")
     ageCheck.style.display = "block"
+    document.body.style.overflow = "hidden"
     ageCheckContent = document.getElementById("ageCheckContent")
-    form = document.querySelector("form")
+    form = document.getElementById("ageCheckForm")
     birthDate = document.getElementById("birthDate")
     confirmBtn = document.getElementById("confirmBtn")
     cancelButton = document.getElementById("cancel")
@@ -27,6 +28,7 @@ if (!(sessionStorage.getItem('age'))) {
         } else {
             sessionStorage.setItem('age', 'majeur')
             ageCheck.style.display = "none"
+            document.body.style.overflow = "visible"
         }
     })
 }  
