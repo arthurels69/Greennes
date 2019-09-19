@@ -81,7 +81,7 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosbleue">Buy now!</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosbleue">Plus d'infos</button>
 					</div>
 					<div class="modal fade" id="infosbleue">
 						<div class="modal-dialog">
@@ -137,7 +137,7 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg"data-toggle="modal" data-target="#infosjaune">Buy now!</button>
+						<button type="button" class="btn btn-warning btn-lg"data-toggle="modal" data-target="#infosjaune">Plus d'infos</button>
 					</div>
 					<div class="modal fade" id="infosjaune">
 						<div class="modal-dialog">
@@ -193,7 +193,7 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosrouge">Buy now!</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosrouge">Plus d'infos</button>
 					</div>
 					<div class="modal fade" id="infosrouge">
 						<div class="modal-dialog">
@@ -249,7 +249,7 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosverte">Buy now!</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosverte">Plus d'infos</button>
 					</div>
 				</div>
 				<div class="modal fade" id="infosverte">
@@ -266,14 +266,34 @@
 </div>
 
 
-<?php include 'livraison.php' ?>
+	<div class="livraison" >
+	<div id="logo"class="container">
+	<div  class="row no-gutters">
+		<div class=" col-12 col-md-4  ">
+		<p class="fa fa-home fa-4x"><p>
+			<p><b> Livraison  domicile</b> <br><br>Gratuite dés 10l achetés</p>
+
+		</div>
+		<div id="rocket" class="col-12 col-md-4 ">
+		<p class="fa fa-rocket fa-4x"><p>
+			<p><b>Livraison express</b><br> <br>Garantie en 24H </p>
+		</div>
+		<div class="col-12 col-md-4 ">
+		<p class="fa fa-gift fa-4x"><p>
+			<p> <b>Avantages</b><br> <br>Bénéficiez <br> de 5€ tous les 100€ d'achats</p>
+			<p>
+		</div>
+	</div>
+	</div>
+	</div>
 
   <?php include 'footer.php';
   include 'age_check.php'; ?>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
