@@ -1,7 +1,11 @@
 addToCarts = document.getElementsByClassName("addToCart")
-for (addToCart of addToCarts) {
-    addToCart.addEventListener('submit', (e) => {
-        quantity = addToCart.elements.namedItem("quantity").value
-        console.log(quantity)
+
+for (let i = 1; i < 5; i++) {
+    addToCarts[i - 1].addEventListener('submit', (e) => {
+        const quantity = parseInt(document.getElementById("quantity" + i).value)
+        totalQuantity += quantity
+        sessionStorage.setItem('cart', totalQuantity)
+        document.getElementById("nbItems").textContent = totalQuantity
+        $('#infos' + i).modal('toggle')
     })
 }

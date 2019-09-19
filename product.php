@@ -81,9 +81,9 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosbleue">Plus d'infos</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos1">Plus d'infos</button>
 					</div>
-					<div class="modal fade" id="infosbleue">
+					<div class="modal fade" id="infos1">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<?php include('tarifbleue.php'); ?>
@@ -137,9 +137,9 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosjaune">Plus d'infos</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos2">Plus d'infos</button>
 					</div>
-					<div class="modal fade" id="infosjaune">
+					<div class="modal fade" id="infos2">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<?php include('tarifjaune.php'); ?>
@@ -193,9 +193,9 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosrouge">Plus d'infos</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos3">Plus d'infos</button>
 					</div>
-					<div class="modal fade" id="infosrouge">
+					<div class="modal fade" id="infos3">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<?php include('tarifrouge.php'); ?>
@@ -249,10 +249,10 @@
 				</div>
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infosverte">Plus d'infos</button>
+						<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#infos4">Plus d'infos</button>
 					</div>
 				</div>
-				<div class="modal fade" id="infosverte">
+				<div class="modal fade" id="infos4">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<?php include('tarifverte.php'); ?>
@@ -289,8 +289,7 @@
 
   <?php include 'footer.php';
   include 'age_check.php'; ?>
-
-	<script src="cart.js"></script>
+  <script src="cart.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
