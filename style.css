@@ -193,6 +193,7 @@ input, textarea {
     justify-content: center;
     flex-direction: column;
     align-items: center; 
+    padding-top: 3em;
 
 }
 
@@ -209,6 +210,7 @@ input, textarea {
     width:80%;
     background-color:lightgray;
     
+    
  }
  .Prix {
      font-size: 20px;
@@ -219,6 +221,14 @@ input, textarea {
      padding:1em;
  }
 
+ .close{
+     position: absolute !important;
+     top: 0;
+     right: 16px;
+     color: rgb(95, 95, 95);
+     font-size: 32px;
+    
+ }
 /* carousel */
 
 #carousel {
