@@ -1,3 +1,12 @@
+<?php
+    $navigation=["Accueil", "Produits", "Contact", "toto"];
+    $liens=["index.php", "product.php", "contact.php", "contact.php"];
+
+
+
+?>
+
+
       <!-- Navbar -->
 <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
   <a href="index.php"><img class="glogo" src="images/glogo.png" "alt="logo greenness"></a>
@@ -7,15 +16,14 @@
 
   <div class="collapse navbar-collapse text-center" id="navbarNav">
     <ul class="navbar-nav ml-auto mr-auto">
-      <li>
-        <a class="nav-link" href="index.php">Accueil</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="product.php">Produits</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.php">Contact</a>
-      </li>
+      <?php
+      for($i=0;$i<count($liens);$i++) {
+          echo "<li>
+        <a class=\"nav-link\" href=\"$liens[$i]\"> $navigation[$i]</a>
+      </li>";
+      };
+
+      ?>
     </ul>
   </div>
     <div id="panier">
