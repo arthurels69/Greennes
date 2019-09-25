@@ -1,6 +1,10 @@
 <?php
-    $navigation=["Accueil", "Produits", "Contact", "toto"];
-    $liens=["index.php", "product.php", "contact.php", "contact.php"];
+    $navigation=[
+            "Accueil"=>["index.php"],
+            "Produits"=>["product.php"],
+            "Contact"=>["contact.php"],
+
+];
 
 
 
@@ -17,9 +21,8 @@
   <div class="collapse navbar-collapse text-center" id="navbarNav">
     <ul class="navbar-nav ml-auto mr-auto">
       <?php
-      for($i=0;$i<count($liens);$i++) {
-          echo "<li>
-        <a class=\"nav-link\" href=\"$liens[$i]\"> $navigation[$i]</a>
+      foreach($navigation as $nom => $lien) {
+          echo "<li id='$nom'><a class=\"nav-link\" href=\"$lien[0]\"> $nom</a>
       </li>";
       };
 
