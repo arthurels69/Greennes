@@ -1,4 +1,13 @@
 <?php
+/*
+    if ($lien[0]==basename(__FILE__)){
+
+    }
+    // penser à fonction pour afficher lien menu actif( sortir foreach);
+
+   $page_active=($_SERVER["REQUEST_URI"]);
+*/
+
     $navigation=[
             "Accueil"=>["index.php"],
             "Produits"=>["product.php"],
@@ -6,6 +15,7 @@
 
 ];
 ?>
+
 
 
       <!-- Navbar -->
@@ -19,7 +29,7 @@
     <ul class="navbar-nav ml-auto mr-auto">
       <?php
       foreach($navigation as $nom => $lien) {
-          echo "<li id='$nom'><a class=\"nav-link\" href=\"$lien[0]\"> $nom</a>
+          echo "<li id=''><a class=\"nav-link\"  href=\"$lien[0]\"> $nom</a>
       </li>";
       };
 
