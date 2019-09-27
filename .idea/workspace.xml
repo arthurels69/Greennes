@@ -25,7 +25,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/formulaire" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -55,7 +55,8 @@
       <workItem from="1569480235889" duration="29000" />
       <workItem from="1569507934290" duration="220000" />
       <workItem from="1569508166761" duration="5490000" />
-      <workItem from="1569566653560" duration="7672000" />
+      <workItem from="1569566653560" duration="12313000" />
+      <workItem from="1569583187782" duration="5569000" />
     </task>
     <servers />
   </component>

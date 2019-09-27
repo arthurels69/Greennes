@@ -1,30 +1,27 @@
-
-
-<!doctype html>
-<html lang="en">
 <?php include 'head.php'; ?>
 <body>
 <?php include 'navbar.php'; ?>
 
 <div class="container d-flex flex-column flex-md-column-reverse">
     <section id="form" class="mt-5">
-        <h2 id="Contact">Contact</h1>
-            <form>
-                <div class="row">
+        <h2 id="Contact">Contact</h2>
+        <form action="contact.php" method="POST">
+            <div class="row">
 
-                    <?php
-                    echo contact($tableaucontact)
-                    ?>
+                <?php
+                echo contact($tableaucontact)
+                ?>
 
-                    <div class="col-12">
-                        <label for="message">Message : </label>
-                        <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
-                    </div>
-                    <div class="col-2 offset-10">
-                        <input type="submit" class="btn btn-green float-right" value="Envoyer">
-                    </div>
+                <div class="col-12">
+                    <label for="message">Message : </label>
+                    <textarea name="message" id="message" class="form-control" rows="5"></textarea>
+                    <p><?php echo $messageErr; ?></p>
                 </div>
-            </form>
+                <div class="col-2 offset-10">
+                    <input type="submit" class="btn btn-green float-right" value="Envoyer">
+                </div>
+            </div>
+        </form>
     </section>
     <section class="mt-5">
         <h2>Nos points de vente</h2>
@@ -53,6 +50,6 @@ include 'age_check.php'; ?>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-<script src="contact.js"></script>
+
 </body>
 </html>

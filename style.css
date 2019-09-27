@@ -1,4 +1,11 @@
-
+#succes p{
+    text-align: center;
+    height: 400px;
+    padding-top: 200px;
+}
+form p{
+    color: dodgerblue;
+}
 #actif{
     color: black;
 }
