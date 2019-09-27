@@ -1,13 +1,11 @@
-<?php define('pagencours', $_SERVER['PHP_SELF'], true);
-    $pages=pagencours;
-?>
+<?php include 'fonctions.php' ?>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title><?php echo pagencours ?></title>
+    <?php echo onglet($navigation) ; ?>
 
 
     <link rel="icon" href="images/favicon-96x96.png">

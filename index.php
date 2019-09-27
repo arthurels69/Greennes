@@ -1,6 +1,4 @@
-<?php
-$nav_en_cours = 'Accueil';
-?>
+
 
 <!doctype html>
 <html lang="en">

@@ -1,6 +1,4 @@
-<?php
-$nav_en_cours = 'Produits';
-?>
+
 <!doctype html>
 <html lang="en">
   <?php include 'head.php'; ?>

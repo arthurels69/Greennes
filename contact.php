@@ -1,6 +1,4 @@
-<?php
-$nav_en_cours = 'Contact';
-?>
+
 
 <!doctype html>
 <html lang="en">
@@ -15,21 +13,7 @@ $nav_en_cours = 'Contact';
                 <div class="row">
 
                     <?php
-                    $tableau = [
-                        "Nom :" => ["name"],
-                        "Prénom :" => ["first-name"],
-                        "Email :" => ["email"],
-                        "Téléphone" => ["phone"],
-                        "Adresse"=>['adress']
-                    ];
-                    foreach ($tableau as $valeur => $id) {
-                        echo "<div class=\"col-12 col-md-6\">
-                        <label for=\"$id[0]\"> $valeur </label>
-                        <input type=\"text\" name=\"$id[0]\" id=\"$id[0]\" class=\"form-control\" required>
-                    </div>";
-                    };
-
-
+                    echo contact($tableaucontact)
                     ?>
 
                     <div class="col-12">
